@@ -22,7 +22,7 @@ public class SpecialStack{
 		spStack.push(item);
 		if(auxiliaryStack.isEmpty()){
 			auxiliaryStack.push(item);
-		}else if(item < auxiliaryStack.peek()){
+		}else if(item <= auxiliaryStack.peek()){
 			auxiliaryStack.push(item);
 		}
 		
